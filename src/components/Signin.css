@@ -1,0 +1,26 @@
+.or::before{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    background-color: rgb(39, 36, 36);
+}
+.or::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    background-color: rgb(39, 36, 36);
+}.or{
+    font-weight: 400;
+    position: relative;
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
